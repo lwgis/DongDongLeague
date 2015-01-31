@@ -1,0 +1,20 @@
+//
+//  DongDongLeague-Prefix.pch
+//  DongDongLeague
+//
+//  Created by 李炜 on 15/1/30.
+//  Copyright (c) 2015年 DongDongLeague. All rights reserved.
+//
+
+#ifndef DongDongLeague_DongDongLeague_Prefix_pch
+#define DongDongLeague_DongDongLeague_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
+#import "WeiboSDK.h"
+
+//com.sina.weibo.SNWeiboSDKDemo
+#define kAppKey         @"1491000321"
+#define kRedirectURI    @"http://159.226.110.64/movementapp/rest/thirdlogin/weibo"
