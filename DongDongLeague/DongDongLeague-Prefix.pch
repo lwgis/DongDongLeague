@@ -18,3 +18,8 @@
 //com.sina.weibo.SNWeiboSDKDemo
 #define kAppKey         @"1491000321"
 #define kRedirectURI    @"http://159.226.110.64/movementapp/rest/thirdlogin/weibo"
+//#define kRedirectURI    @"http://www.weibo.com"
+#define SCREENHEIGHT [[UIScreen mainScreen] bounds].size.height-20 //设备屏幕高度
+#define SCREENWIDTH [[UIScreen mainScreen] bounds].size.width //设备屏幕宽度
+
+#define TABBARHEIGHT 0 //tabar的高度

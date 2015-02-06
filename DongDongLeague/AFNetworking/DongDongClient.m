@@ -7,7 +7,7 @@
 //
 
 #import "DongDongClient.h"
-static NSString * const DongDongBaseURLString = @"https://api.weibo.com/";
+static NSString * const DongDongBaseURLString = @"http://159.226.110.64/movementapp/rest/";
 
 @implementation DongDongClient
 + (instancetype)sharedClient {

@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "User.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,WeiboSDKDelegate>{
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
 }
 
 @property (strong, nonatomic) UIWindow *window;

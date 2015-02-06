@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MainViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIImageView *userImageView;
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *loginButton;
+@property (weak, nonatomic) IBOutlet UIButton *projectTypeBtn;
+
 
 -(void)loadWeiboUser;
 @end

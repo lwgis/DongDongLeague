@@ -7,7 +7,6 @@
 //
 
 #import "AFHTTPSessionManager.h"
-static NSString * const SinaWeiboAPIBaseURLString = @"https://api.weibo.com/";
 
 @interface DongDongClient : AFHTTPSessionManager
 + (instancetype)sharedClient;

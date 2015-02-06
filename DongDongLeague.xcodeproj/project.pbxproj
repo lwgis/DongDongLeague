@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		D00B8A4F1A70D62A00A09DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B8A4E1A70D62A00A09DC0 /* main.m */; };
 		D00B8A521A70D62A00A09DC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B8A511A70D62A00A09DC0 /* AppDelegate.m */; };
-		D00B8A551A70D62A00A09DC0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B8A541A70D62A00A09DC0 /* MainViewController.m */; };
 		D00B8A581A70D62A00A09DC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00B8A561A70D62A00A09DC0 /* Main.storyboard */; };
 		D00B8A5A1A70D62A00A09DC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00B8A591A70D62A00A09DC0 /* Images.xcassets */; };
 		D00B8A5D1A70D62A00A09DC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D00B8A5B1A70D62A00A09DC0 /* LaunchScreen.xib */; };
 		D00B8A691A70D62A00A09DC0 /* DongDongLeagueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D00B8A681A70D62A00A09DC0 /* DongDongLeagueTests.m */; };
+		D0109C961A7E4B01001E4700 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0109C951A7E4B01001E4700 /* LoginViewController.m */; };
+		D0109C991A7E4C1C001E4700 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0109C971A7E4C1C001E4700 /* MainViewController.m */; };
+		D0109CA01A7E884A001E4700 /* MessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0109C9F1A7E884A001E4700 /* MessageView.m */; };
+		D0109CD61A7EE7AC001E4700 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0109CD51A7EE7AC001E4700 /* Login.storyboard */; };
 		D022DDA11A7B77F7008AF7DC /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D022DD961A7B77F7008AF7DC /* libWeiboSDK.a */; };
 		D022DDA21A7B77F7008AF7DC /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D022DD9E1A7B77F7008AF7DC /* WeiboSDK.bundle */; };
 		D022DDA51A7B887F008AF7DC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D022DDA41A7B887F008AF7DC /* ImageIO.framework */; };
@@ -42,6 +45,10 @@
 		D0723F4F1A7C020100626767 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D0723F461A7C020100626767 /* UIRefreshControl+AFNetworking.m */; };
 		D0723F501A7C020100626767 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D0723F481A7C020100626767 /* UIWebView+AFNetworking.m */; };
 		D08099C91A7D4C3F006EA5BC /* DongDongClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D08099C81A7D4C3F006EA5BC /* DongDongClient.m */; };
+		D083B12B1A80613000A772AE /* SelectProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D083B12A1A80613000A772AE /* SelectProjectViewController.m */; };
+		D083B12E1A809B7500A772AE /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = D083B12D1A809B7500A772AE /* Project.m */; };
+		D0E5AD1B1A83420C00B6C9D2 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5AD1A1A83420C00B6C9D2 /* MeViewController.m */; };
+		D0E5AD1F1A836A1100B6C9D2 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E5AD1E1A836A1100B6C9D2 /* 120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +67,19 @@
 		D00B8A4E1A70D62A00A09DC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D00B8A501A70D62A00A09DC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D00B8A511A70D62A00A09DC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D00B8A531A70D62A00A09DC0 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		D00B8A541A70D62A00A09DC0 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D00B8A571A70D62A00A09DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00B8A591A70D62A00A09DC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D00B8A5C1A70D62A00A09DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D00B8A621A70D62A00A09DC0 /* DongDongLeagueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongDongLeagueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00B8A671A70D62A00A09DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00B8A681A70D62A00A09DC0 /* DongDongLeagueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongDongLeagueTests.m; sourceTree = "<group>"; };
+		D0109C941A7E4B01001E4700 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewController/LoginViewController.h; sourceTree = "<group>"; };
+		D0109C951A7E4B01001E4700 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewController/LoginViewController.m; sourceTree = "<group>"; };
+		D0109C971A7E4C1C001E4700 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewController/MainViewController.m; sourceTree = "<group>"; };
+		D0109C981A7E4C1C001E4700 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewController/MainViewController.h; sourceTree = "<group>"; };
+		D0109C9E1A7E884A001E4700 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageView.h; path = CustomUIControlls/MessageView.h; sourceTree = "<group>"; };
+		D0109C9F1A7E884A001E4700 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessageView.m; path = CustomUIControlls/MessageView.m; sourceTree = "<group>"; };
+		D0109CD51A7EE7AC001E4700 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		D022DD961A7B77F7008AF7DC /* libWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeiboSDK.a; sourceTree = "<group>"; };
 		D022DD971A7B77F7008AF7DC /* WBHttpRequest+WeiboShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboShare.h"; sourceTree = "<group>"; };
 		D022DD981A7B77F7008AF7DC /* WBHttpRequest+WeiboToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WBHttpRequest+WeiboToken.h"; sourceTree = "<group>"; };
@@ -128,6 +140,13 @@
 		D0723F481A7C020100626767 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		D08099C71A7D4C3F006EA5BC /* DongDongClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DongDongClient.h; sourceTree = "<group>"; };
 		D08099C81A7D4C3F006EA5BC /* DongDongClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DongDongClient.m; sourceTree = "<group>"; };
+		D083B1291A80613000A772AE /* SelectProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectProjectViewController.h; path = ViewController/SelectProjectViewController.h; sourceTree = "<group>"; };
+		D083B12A1A80613000A772AE /* SelectProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectProjectViewController.m; path = ViewController/SelectProjectViewController.m; sourceTree = "<group>"; };
+		D083B12C1A809B7500A772AE /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = model/Project.h; sourceTree = "<group>"; };
+		D083B12D1A809B7500A772AE /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Project.m; path = model/Project.m; sourceTree = "<group>"; };
+		D0E5AD191A83420C00B6C9D2 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = ViewController/MeViewController.h; sourceTree = "<group>"; };
+		D0E5AD1A1A83420C00B6C9D2 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = ViewController/MeViewController.m; sourceTree = "<group>"; };
+		D0E5AD1E1A836A1100B6C9D2 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +177,7 @@
 		D00B8A401A70D62A00A09DC0 = {
 			isa = PBXGroup;
 			children = (
-				D0723F371A7C020100626767 /* UIKit+AFNetworking */,
+				D0E5AD1E1A836A1100B6C9D2 /* 120.png */,
 				D00B8A4B1A70D62A00A09DC0 /* DongDongLeague */,
 				D00B8A651A70D62A00A09DC0 /* DongDongLeagueTests */,
 				D00B8A4A1A70D62A00A09DC0 /* Products */,
@@ -177,14 +196,16 @@
 		D00B8A4B1A70D62A00A09DC0 /* DongDongLeague */ = {
 			isa = PBXGroup;
 			children = (
-				D0723F331A7BF71000626767 /* model */,
 				D0723F131A7BEAFC00626767 /* AFNetworking */,
+				D0723F371A7C020100626767 /* UIKit+AFNetworking */,
 				D022DD951A7B77F7008AF7DC /* libWeiboSDK */,
+				D0109C9A1A7E87FC001E4700 /* CustomUIControlls */,
+				D0109C931A7E4A3A001E4700 /* ViewController */,
+				D0723F331A7BF71000626767 /* model */,
 				D00B8A501A70D62A00A09DC0 /* AppDelegate.h */,
 				D00B8A511A70D62A00A09DC0 /* AppDelegate.m */,
-				D00B8A531A70D62A00A09DC0 /* MainViewController.h */,
-				D00B8A541A70D62A00A09DC0 /* MainViewController.m */,
 				D00B8A561A70D62A00A09DC0 /* Main.storyboard */,
+				D0109CD51A7EE7AC001E4700 /* Login.storyboard */,
 				D00B8A591A70D62A00A09DC0 /* Images.xcassets */,
 				D00B8A5B1A70D62A00A09DC0 /* LaunchScreen.xib */,
 				D00B8A4C1A70D62A00A09DC0 /* Supporting Files */,
@@ -223,6 +244,30 @@
 				D00B8A671A70D62A00A09DC0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0109C931A7E4A3A001E4700 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0109C981A7E4C1C001E4700 /* MainViewController.h */,
+				D0109C971A7E4C1C001E4700 /* MainViewController.m */,
+				D0109C941A7E4B01001E4700 /* LoginViewController.h */,
+				D0109C951A7E4B01001E4700 /* LoginViewController.m */,
+				D083B1291A80613000A772AE /* SelectProjectViewController.h */,
+				D083B12A1A80613000A772AE /* SelectProjectViewController.m */,
+				D0E5AD191A83420C00B6C9D2 /* MeViewController.h */,
+				D0E5AD1A1A83420C00B6C9D2 /* MeViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D0109C9A1A7E87FC001E4700 /* CustomUIControlls */ = {
+			isa = PBXGroup;
+			children = (
+				D0109C9E1A7E884A001E4700 /* MessageView.h */,
+				D0109C9F1A7E884A001E4700 /* MessageView.m */,
+			);
+			name = CustomUIControlls;
 			sourceTree = "<group>";
 		};
 		D022DD951A7B77F7008AF7DC /* libWeiboSDK */ = {
@@ -278,6 +323,8 @@
 			children = (
 				D0723F341A7BF76800626767 /* User.h */,
 				D0723F351A7BF76800626767 /* User.m */,
+				D083B12C1A809B7500A772AE /* Project.h */,
+				D083B12D1A809B7500A772AE /* Project.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -303,8 +350,7 @@
 				D0723F471A7C020100626767 /* UIWebView+AFNetworking.h */,
 				D0723F481A7C020100626767 /* UIWebView+AFNetworking.m */,
 			);
-			name = "UIKit+AFNetworking";
-			path = "DongDongLeague/UIKit+AFNetworking";
+			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,6 +436,8 @@
 				D00B8A581A70D62A00A09DC0 /* Main.storyboard in Resources */,
 				D00B8A5D1A70D62A00A09DC0 /* LaunchScreen.xib in Resources */,
 				D00B8A5A1A70D62A00A09DC0 /* Images.xcassets in Resources */,
+				D0E5AD1F1A836A1100B6C9D2 /* 120.png in Resources */,
+				D0109CD61A7EE7AC001E4700 /* Login.storyboard in Resources */,
 				D022DDA21A7B77F7008AF7DC /* WeiboSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,16 +457,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0723F271A7BEAFC00626767 /* AFHTTPRequestOperation.m in Sources */,
-				D00B8A551A70D62A00A09DC0 /* MainViewController.m in Sources */,
 				D0723F4C1A7C020100626767 /* UIButton+AFNetworking.m in Sources */,
+				D0E5AD1B1A83420C00B6C9D2 /* MeViewController.m in Sources */,
 				D0723F321A7BEC4500626767 /* SinaWeiboAPIClient.m in Sources */,
 				D0723F4E1A7C020100626767 /* UIProgressView+AFNetworking.m in Sources */,
 				D0723F281A7BEAFC00626767 /* AFHTTPRequestOperationManager.m in Sources */,
 				D0723F2A1A7BEAFC00626767 /* AFNetworkReachabilityManager.m in Sources */,
 				D0723F2E1A7BEAFC00626767 /* AFURLResponseSerialization.m in Sources */,
+				D0109C961A7E4B01001E4700 /* LoginViewController.m in Sources */,
 				D0723F4F1A7C020100626767 /* UIRefreshControl+AFNetworking.m in Sources */,
 				D0723F2C1A7BEAFC00626767 /* AFURLConnectionOperation.m in Sources */,
 				D0723F2B1A7BEAFC00626767 /* AFSecurityPolicy.m in Sources */,
+				D0109CA01A7E884A001E4700 /* MessageView.m in Sources */,
+				D083B12E1A809B7500A772AE /* Project.m in Sources */,
 				D0723F4D1A7C020100626767 /* UIImageView+AFNetworking.m in Sources */,
 				D0723F361A7BF76800626767 /* User.m in Sources */,
 				D0723F4B1A7C020100626767 /* UIAlertView+AFNetworking.m in Sources */,
@@ -427,7 +478,9 @@
 				D0723F501A7C020100626767 /* UIWebView+AFNetworking.m in Sources */,
 				D0723F2F1A7BEAFC00626767 /* AFURLSessionManager.m in Sources */,
 				D00B8A521A70D62A00A09DC0 /* AppDelegate.m in Sources */,
+				D0109C991A7E4C1C001E4700 /* MainViewController.m in Sources */,
 				D00B8A4F1A70D62A00A09DC0 /* main.m in Sources */,
+				D083B12B1A80613000A772AE /* SelectProjectViewController.m in Sources */,
 				D0723F4A1A7C020100626767 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				D08099C91A7D4C3F006EA5BC /* DongDongClient.m in Sources */,
 				D0723F491A7C020100626767 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -552,11 +605,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: CHEN YANQIONG (5KP65D7Q8S)";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DongDongLeague/DongDongLeague-Prefix.pch";
 				INFOPLIST_FILE = DongDongLeague/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,11 +626,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: CHEN YANQIONG (5KP65D7Q8S)";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DongDongLeague/DongDongLeague-Prefix.pch";
 				INFOPLIST_FILE = DongDongLeague/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

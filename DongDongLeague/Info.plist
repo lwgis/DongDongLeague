@@ -23,6 +23,8 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>120.png</string>
 			<key>CFBundleURLName</key>
 			<string>com.weibo</string>
 			<key>CFBundleURLSchemes</key>
@@ -37,8 +39,6 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
